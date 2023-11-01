@@ -32,9 +32,9 @@ function App() {
 
   const handleBackSpace = () => {
     
-    
+    setCalculatordata(inputValue.slice(0,-1));
     setInputValue(inputValue.slice(0, -1));
-   
+  
     
   };
 
